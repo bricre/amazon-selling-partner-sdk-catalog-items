@@ -10,30 +10,47 @@ use OpenAPI\Runtime\AbstractModel as AbstractModel;
 class Item extends AbstractModel
 {
     /**
-     * The identifiers that uniquely identify the item.
-     *
-     * @var \Amz\CatalogItems\Model\IdentifierType
+     * @var \Amz\CatalogItems\Model\ItemAsin
      */
-    public $Identifiers = null;
+    public $asin = null;
 
     /**
-     * A list of attributes of the item.
-     *
-     * @var \Amz\CatalogItems\Model\AttributeSetList
+     * @var \Amz\CatalogItems\Model\ItemAttributes
      */
-    public $AttributeSets = null;
+    public $attributes = null;
 
     /**
-     * A list of variation relationship information for the item.
-     *
-     * @var \Amz\CatalogItems\Model\RelationshipList
+     * @var \Amz\CatalogItems\Model\ItemIdentifiers
      */
-    public $Relationships = null;
+    public $identifiers = null;
 
     /**
-     * A list of sales rank information for the item by category.
-     *
-     * @var \Amz\CatalogItems\Model\SalesRankList
+     * @var \Amz\CatalogItems\Model\ItemImages
      */
-    public $SalesRankings = null;
+    public $images = null;
+
+    /**
+     * @var \Amz\CatalogItems\Model\ItemProductTypes
+     */
+    public $productTypes = null;
+
+    /**
+     * @var \Amz\CatalogItems\Model\ItemSalesRanks
+     */
+    public $salesRanks = null;
+
+    /**
+     * @var \Amz\CatalogItems\Model\ItemSummaries
+     */
+    public $summaries = null;
+
+    /**
+     * @var \Amz\CatalogItems\Model\ItemVariations
+     */
+    public $variations = null;
+
+    /**
+     * @var \Amz\CatalogItems\Model\ItemVendorDetails
+     */
+    public $vendorDetails = null;
 }

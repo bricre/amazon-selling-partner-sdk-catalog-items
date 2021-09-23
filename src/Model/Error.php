@@ -17,14 +17,14 @@ class Error extends AbstractModel
     public $code = null;
 
     /**
-     * A message that describes the error condition in a human-readable form.
+     * A message that describes the error condition.
      *
      * @var string
      */
     public $message = null;
 
     /**
-     * Additional information that can help the caller understand or fix the issue.
+     * Additional details that can help the caller understand or fix the issue.
      *
      * @var string
      */
