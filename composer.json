@@ -1,6 +1,6 @@
 {
   "name": "bricre/amazon-selling-partner-sdk-catalog-items",
-  "version": "v0",
+  "version": "2020.12.01",
   "description": "API client generated from OpenAPI definition from Amazon Selling Partner API for Catalog Items",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
