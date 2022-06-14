@@ -2,7 +2,7 @@
 
 namespace Amz\CatalogItems\Model;
 
-use OpenAPI\Runtime\AbstractModel as AbstractModel;
+use OpenAPI\Runtime\AbstractModel;
 
 /**
  * A list of variation relationship information, if applicable for the item.

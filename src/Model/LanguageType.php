@@ -2,7 +2,7 @@
 
 namespace Amz\CatalogItems\Model;
 
-use OpenAPI\Runtime\AbstractModel as AbstractModel;
+use OpenAPI\Runtime\AbstractModel;
 
 /**
  * The language type attribute of an item.

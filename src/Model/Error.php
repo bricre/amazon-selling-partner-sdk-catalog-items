@@ -2,7 +2,7 @@
 
 namespace Amz\CatalogItems\Model;
 
-use OpenAPI\Runtime\AbstractModel as AbstractModel;
+use OpenAPI\Runtime\AbstractModel;
 
 /**
  * Error response returned when the request is unsuccessful.
@@ -17,14 +17,14 @@ class Error extends AbstractModel
     public $code = null;
 
     /**
-     * A message that describes the error condition.
+     * A message that describes the error condition in a human-readable form.
      *
      * @var string
      */
     public $message = null;
 
     /**
-     * Additional details that can help the caller understand or fix the issue.
+     * Additional information that can help the caller understand or fix the issue.
      *
      * @var string
      */

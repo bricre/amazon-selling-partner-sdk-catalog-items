@@ -2,15 +2,12 @@
 
 namespace Amz\CatalogItems\Model;
 
-use OpenAPI\Runtime\AbstractModel as AbstractModel;
+use OpenAPI\Runtime\AbstractModel;
 
 /**
  * A list of error responses returned when a request is unsuccessful.
  */
 class ErrorList extends AbstractModel
 {
-    /**
-     * @var \Amz\CatalogItems\Model\Error[]
-     */
-    public $errors = null;
+    protected $isRawObject = true;
 }
